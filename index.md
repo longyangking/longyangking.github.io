@@ -8,7 +8,13 @@ Theoretical, computational and experimental physics
 
 Fingerstyle Guitar Player
 
-Github: [@longyangking](https://github.com/longyangking). E-mail: [Personal](longyang_123@yeah.net),  [Work](longyang@tongji.edu.cn).  
+E-mail: longyang_123@yeah.net (Personal)
+
+​			longyang@tongji.edu.cn (Work)
+
+Github: [@longyangking](https://github.com/longyangking)
+
+Gitee: [@longyangking](https://gitee.com/longyangking)
 
 Academic profiles: [Publons/ResearcherID](https://publons.com/researcher/2538759/yang-long/)
 
@@ -34,14 +40,16 @@ My thoughts and opinions: [Blog](thoughts.html)
 
 > Try to make something different and interesting
 
-- **Yang Long**, Jie Ren, and Hong Chen. "Intrinsic spin of elastic waves." Proceedings of the National Academy of Sciences 115.40 (2018): 9951-9955. [DOI](https://doi.org/10.1073/PNAS.1808534115)
-- Chengzhi Shi#, Rongkuo Zhao#, **Yang Long**#, Sui Yang, Yuan Wang, Hong Chen, Jie Ren and Xiang Zhang "Observation of acoustic spin." National Science Review 6.4 (2019): 707-712. (# equally contribute, Cover work) [DOI](https://doi.org/10.1093/NSR/NWZ059)
-- **Yang Long**, Hao Ge, Danmei Zhang, Xiangyuan Xu, Jie Ren, Ming-Hui Lu, Ming Bao, Hong Chen, and Yan-Feng Chen “Symmetry Selective Directionality in Near-Field Acoustics” National Science Review (Accepted, in press) [DOI](https://doi.org/10.1093/NSR/NWAA040)
-- **Yang Long**, Jie Ren and Hong Chen “Unsupervised Manifold Clustering of Topological Phononics”, Physical Review Letter (Accepted, in press) [arXiv:2001.02661](https://arxiv.org/abs/2001.02661)
-- **Yang Long**\*, Jie Ren\*, Yunhui Li, and Hong Chen "Inverse design of photonic topological state via machine learning." Applied Physics Letters 114.18 (2019): 181105. (* corresponding author) [DOI](https://doi.org/10.1063/1.5094838)
-- **Yang Long**, Jie Ren "Floquet topological acoustic resonators and acoustic Thouless pumping." The Journal of the Acoustical Society of America 146.1 (2019): 742-747. [DOI](https://doi.org/10.1121/1.5114914)
-- **Yang Long**, Jie Ren, Hai-Tao Jiang, Yong Sun, and Hong Chen "Quantum spin Hall effect in metamaterials." ACTA PHYSICA SINICA 66.22 (2017). [DOI](https://doi.org/10.7498/APS.66.227803)
-- **Yang Long**, Zhengren Zhang, and Xiaopeng Su. "Robust subwavelength focusing of surface plasmons on graphene." EPL (Europhysics Letters) 116.3 (2016): 37004. [DOI](https://doi.org/10.1209/0295-5075/116/37004)
+- **Yang Long**, Jie Ren, and Hong Chen. "Intrinsic spin of elastic waves." *Proceedings of the National Academy of Sciences* (PNAS) 115.40 (2018): 9951-9955. [DOI](https://doi.org/10.1073/PNAS.1808534115)
+- Chengzhi Shi#, Rongkuo Zhao#, **Yang Long**#, Sui Yang, Yuan Wang, Hong Chen, Jie Ren and Xiang Zhang "Observation of acoustic spin." *National Science Review* 6.4 (2019): 707-712. (# equally contribute, Cover work) [DOI](https://doi.org/10.1093/NSR/NWZ059)
+- **Yang Long**#, Hao Ge#, Danmei Zhang, Xiangyuan Xu, Jie Ren, Ming-Hui Lu, Ming Bao, Hong Chen, and Yan-Feng Chen “Symmetry Selective Directionality in Near-Field Acoustics” *National Science Review* 7.6 (2020): 1024–1035 [DOI](https://doi.org/10.1093/NSR/NWAA040)
+- **Yang Long**#, Danmei Zhang#, Chenwen Yang, Jianmin Ge, Hong Chen and Jie Ren
+  “Topological Acoustic Spin Transport in Metasurface Waveguides” *Nature Communications* (Accepted, in press)
+- **Yang Long**, Jie Ren and Hong Chen “Unsupervised Manifold Clustering of Topological Phononics”, *Physical Review Letter* 124, 185501 [DOI](https://doi.org/10.1103/PhysRevLett.124.185501)
+- **Yang Long**\*, Jie Ren\*, Yunhui Li, and Hong Chen "Inverse design of photonic topological state via machine learning." *Applied Physics Letters* 114.18 (2019): 181105. (* corresponding author) [DOI](https://doi.org/10.1063/1.5094838)
+- **Yang Long**, Jie Ren "Floquet topological acoustic resonators and acoustic Thouless pumping." *The Journal of the Acoustical Society of America* 146.1 (2019): 742-747. [DOI](https://doi.org/10.1121/1.5114914)
+- **Yang Long**, Jie Ren, Hai-Tao Jiang, Yong Sun, and Hong Chen "Quantum spin Hall effect in metamaterials." *Acta Physica Sinica* 66.22 (2017). (invited review) [DOI](https://doi.org/10.7498/APS.66.227803)
+- **Yang Long**, Zhengren Zhang, and Xiaopeng Su. "Robust subwavelength focusing of surface plasmons on graphene." *EPL (Europhysics Letters)* 116.3 (2016): 37004. [DOI](https://doi.org/10.1209/0295-5075/116/37004)
 
 The published papers that I am not first but co-author are not listed here. One can find the details in [My Publons](https://publons.com/researcher/2538759/yang-long/).
 
