@@ -44,7 +44,7 @@ My thoughts and opinions: [Blog](thoughts.html)
 - Chengzhi Shi#, Rongkuo Zhao#, **Yang Long**#, Sui Yang, Yuan Wang, Hong Chen, Jie Ren and Xiang Zhang "Observation of acoustic spin." *National Science Review* 6.4 (2019): 707-712. (# equally contribute, Cover work) [DOI](https://doi.org/10.1093/NSR/NWZ059)
 - **Yang Long**#, Hao Ge#, Danmei Zhang, Xiangyuan Xu, Jie Ren, Ming-Hui Lu, Ming Bao, Hong Chen, and Yan-Feng Chen “Symmetry Selective Directionality in Near-Field Acoustics” *National Science Review* 7.6 (2020): 1024–1035 [DOI](https://doi.org/10.1093/NSR/NWAA040)
 - **Yang Long**#, Danmei Zhang#, Chenwen Yang, Jianmin Ge, Hong Chen and Jie Ren
-  “Topological Acoustic Spin Transport in Metasurface Waveguides” *Nature Communications* (Accepted, in press)
+  “Realization of acoustic spin transport in metasurface waveguides” *Nature Communications* **11,** 4716 (2020) [DOI](https://doi.org/10.1038/s41467-020-18599-y)
 - **Yang Long**, Jie Ren and Hong Chen “Unsupervised Manifold Clustering of Topological Phononics”, *Physical Review Letters* 124, 185501 [DOI](https://doi.org/10.1103/PhysRevLett.124.185501)
 - **Yang Long**, Jie Ren, Zhiwei Guo, Haitao Jiang, Yuqian Wang, Yong Sun, and Hong Chen "Designing All-Electric Subwavelength Metasources for Near-Field Photonic Routings", *Physical Review Letters* (Accepted, in press) [Arxiv](https://arxiv.org/abs/2004.05586)
 - **Yang Long**\*, Jie Ren\*, Yunhui Li, and Hong Chen "Inverse design of photonic topological state via machine learning." *Applied Physics Letters* 114.18 (2019): 181105. (* corresponding author) [DOI](https://doi.org/10.1063/1.5094838)

@@ -16,7 +16,11 @@ With rapid developments of physical hardware, the next-generation of computation
 
 2. #### Multiphysics coupling
 
+   Modern quantum mechanism usually involves in many distinguished physical processes. 
+
 3. #### New computer infrastructures and quantum approaches
+
+   Conventional classical computer is composed of four main parts: (1) Processors, which is functional for calculating and scheduling; (2) RAM, the devices to supply the space to process data temporarily; (3) Hard disk, storing the data for a long period; (4) Controller, 
 
 4. #### Quantum programming languages or scripts
 
