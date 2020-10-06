@@ -46,7 +46,7 @@ My thoughts and opinions: [Blog](thoughts.html)
 - **Yang Long**#, Danmei Zhang#, Chenwen Yang, Jianmin Ge, Hong Chen and Jie Ren
   “Realization of acoustic spin transport in metasurface waveguides” *Nature Communications* **11,** 4716 (2020) [DOI](https://doi.org/10.1038/s41467-020-18599-y)
 - **Yang Long**, Jie Ren and Hong Chen “Unsupervised Manifold Clustering of Topological Phononics”, *Physical Review Letters* 124, 185501 [DOI](https://doi.org/10.1103/PhysRevLett.124.185501)
-- **Yang Long**, Jie Ren, Zhiwei Guo, Haitao Jiang, Yuqian Wang, Yong Sun, and Hong Chen "Designing All-Electric Subwavelength Metasources for Near-Field Photonic Routings", *Physical Review Letters* (Accepted, in press) [Arxiv](https://arxiv.org/abs/2004.05586)
+- **Yang Long**, Jie Ren, Zhiwei Guo, Haitao Jiang, Yuqian Wang, Yong Sun, and Hong Chen "Designing All-Electric Subwavelength Metasources for Near-Field Photonic Routings", *Physical Review Letters* 125, 157401 [DOI](https://doi.org/10.1103/PhysRevLett.125.157401)
 - **Yang Long**\*, Jie Ren\*, Yunhui Li, and Hong Chen "Inverse design of photonic topological state via machine learning." *Applied Physics Letters* 114.18 (2019): 181105. (* corresponding author) [DOI](https://doi.org/10.1063/1.5094838)
 - **Yang Long**, Jie Ren "Floquet topological acoustic resonators and acoustic Thouless pumping." *The Journal of the Acoustical Society of America* 146.1 (2019): 742-747. [DOI](https://doi.org/10.1121/1.5114914)
 - **Yang Long**, Jie Ren, Hai-Tao Jiang, Yong Sun, and Hong Chen "Quantum spin Hall effect in metamaterials." *Acta Physica Sinica* 66.22 (2017). (invited review) [DOI](https://doi.org/10.7498/APS.66.227803)
