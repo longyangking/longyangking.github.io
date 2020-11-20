@@ -2,7 +2,7 @@
 
 > Just a person who loves to explore
 
-A PhD student
+Doctor of Physics 
 
 Theoretical, computational and experimental physics
 
@@ -16,7 +16,11 @@ Github: [@longyangking](https://github.com/longyangking)
 
 Gitee: [@longyangking](https://gitee.com/longyangking)
 
-Academic profiles: [Publons/ResearcherID](https://publons.com/researcher/2538759/yang-long/)
+Academic profiles: [Publons/ResearcherID](https://publons.com/researcher/2538759/yang-long/) 
+
+​								  [Google Scholar](https://scholar.google.com/citations?hl=en&user=D_YienkAAAAJ&view_op=list_works&sortby=pubdate)
+
+​								  [ORCID](https://orcid.org/0000-0001-7600-3396)
 
 My thoughts and opinions: [Blog](thoughts.html)
 
