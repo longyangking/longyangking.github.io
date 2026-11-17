@@ -1,510 +1,624 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>Yang Long's Page</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
-html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
-iframe { margin: auto; }
-a.url { word-break: break-all; }
-a:active, a:hover { outline: 0px; }
-.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
-#write.first-line-indent p { text-indent: 2em; }
-#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
-#write.first-line-indent li { margin-left: 2em; }
-.for-image #write { padding-left: 8px; padding-right: 8px; }
-body.typora-export { padding-left: 30px; padding-right: 30px; }
-.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
-@media screen and (max-width: 500px) {
-  body.typora-export { padding-left: 0px; padding-right: 0px; }
-  #write { padding-left: 20px; padding-right: 20px; }
-  .CodeMirror-sizer { margin-left: 0px !important; }
-  .CodeMirror-gutters { display: none !important; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Yang Long — Tenured Associate Professor, School of Physics Science and Engineering, Tongji University. Research: AI for science, spin angular momentum of classical waves, topological physics, phononic circuit chips, photonic/phononic crystals.">
+<title>Yang Long | Tongji University</title>
+<style>
+:root{
+  --navy:#13294b;
+  --navy2:#1d3a66;
+  --gold:#a8852f;
+  --gold-soft:#c9ab5e;
+  --ink:#22262d;
+  --muted:#68717e;
+  --bg:#f6f4ef;
+  --card:#ffffff;
+  --line:#e6e2d7;
+  --serif:Georgia,'Times New Roman','Songti SC','SimSun',serif;
+  --sans:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;
 }
-#write li > figure:last-child { margin-bottom: 0.5rem; }
-#write ol, #write ul { position: relative; }
-img { max-width: 100%; vertical-align: middle; }
-button, input, select, textarea { color: inherit; font: inherit; }
-input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
-*, ::after, ::before { box-sizing: border-box; }
-#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
-#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
-p { line-height: inherit; }
-h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
-p { orphans: 4; }
-h1 { font-size: 2rem; }
-h2 { font-size: 1.8rem; }
-h3 { font-size: 1.6rem; }
-h4 { font-size: 1.4rem; }
-h5 { font-size: 1.2rem; }
-h6 { font-size: 1rem; }
-.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
-.hidden { display: none; }
-.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
-a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
-sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
-#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
-figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
-figure > table { margin: 0px !important; }
-tr { break-inside: avoid; break-after: auto; }
-thead { display: table-header-group; }
-table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
-table.md-table td { min-width: 32px; }
-.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
-.CodeMirror-linenumber { user-select: none; }
-.CodeMirror { text-align: left; }
-.CodeMirror-placeholder { opacity: 0.3; }
-.CodeMirror pre { padding: 0px 4px; }
-.CodeMirror-lines { padding: 0px; }
-div.hr:focus { cursor: none; }
-#write pre { white-space: pre-wrap; }
-#write.fences-no-line-wrapping pre { white-space: pre; }
-#write pre.ty-contain-cm { white-space: normal; }
-.CodeMirror-gutters { margin-right: 4px; }
-.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
-.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
-#write .md-fences.mock-cm { white-space: pre-wrap; }
-.md-fences.md-fences-with-lineno { padding-left: 0px; }
-#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
-.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
-.CodeMirror-line, twitterwidget { break-inside: avoid; }
-.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
-.footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
-li div { padding-top: 0px; }
-blockquote { margin: 1rem 0px; }
-li .mathjax-block, li p { margin: 0.5rem 0px; }
-li { margin: 0px; position: relative; }
-blockquote > :last-child { margin-bottom: 0px; }
-blockquote > :first-child, li > :first-child { margin-top: 0px; }
-.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
-#write .footnote-line { white-space: pre-wrap; }
-@media print {
-  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
-  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
-  html.blink-to-pdf { font-size: 13px; }
-  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
-  .typora-export #write::after { height: 0px; }
-}
-.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
-a img, img a { cursor: pointer; }
-pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
-p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
-p > .md-image:only-child { display: inline-block; width: 100%; }
-#write .MathJax_Display { margin: 0.8em 0px 0px; }
-.md-math-block { width: 100%; }
-.md-math-block:not(:empty)::after { display: none; }
-[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
-.md-task-list-item { position: relative; list-style-type: none; }
-.task-list-item.md-task-list-item { padding-left: 0px; }
-.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
-.math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
-.md-toc-content { position: relative; margin-left: 0px; }
-.md-toc-content::after, .md-toc::after { display: none; }
-.md-toc-item { display: block; color: rgb(65, 131, 196); }
-.md-toc-item a { text-decoration: none; }
-.md-toc-inner:hover { text-decoration: underline; }
-.md-toc-inner { display: inline-block; cursor: pointer; }
-.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
-.md-toc-h2 .md-toc-inner { margin-left: 2em; }
-.md-toc-h3 .md-toc-inner { margin-left: 4em; }
-.md-toc-h4 .md-toc-inner { margin-left: 6em; }
-.md-toc-h5 .md-toc-inner { margin-left: 8em; }
-.md-toc-h6 .md-toc-inner { margin-left: 10em; }
-@media screen and (max-width: 48em) {
-  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
-  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
-  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
-  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
-}
-a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
-.footnote-line a:not(.reversefootnote) { color: inherit; }
-.md-attr { display: none; }
-.md-fn-count::after { content: "."; }
-code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
-.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
-code { text-align: left; vertical-align: initial; }
-a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
-.md-inline-math .MathJax_SVG .noError { display: none !important; }
-.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
-.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
-.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
-.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
-.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
-.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
-.MathJax_SVG * { transition: none 0s ease 0s; }
-.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
-.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
-.md-diagram-panel > svg { max-width: 100%; }
-[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
-[lang="mermaid"] .node text { font-size: 1rem; }
-table tr th { border-bottom: 0px; }
-video { max-width: 100%; display: block; margin: 0px auto; }
-iframe { max-width: 100%; width: 100%; border: none; }
-.highlight td, .highlight tr { border: 0px; }
-svg[id^="mermaidChart"] { line-height: 1em; }
-mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
-.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
-mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--ink);background:var(--bg);line-height:1.65;font-size:15px}
+a{color:var(--navy2)}
+a:hover{color:var(--gold)}
 
+/* ---------- top navigation ---------- */
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(15,32,58,.94);backdrop-filter:blur(6px);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav-inner{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:.5rem;padding:.6rem 1.4rem;flex-wrap:wrap}
+.brand{font-family:var(--serif);color:#fff;font-size:1.02rem;letter-spacing:.05em;text-decoration:none}
+.brand em{color:var(--gold-soft);font-style:normal}
+.nav ul{display:flex;list-style:none;gap:.1rem;flex-wrap:wrap}
+.nav ul a{display:block;color:#c4d1e2;text-decoration:none;font-size:.82rem;letter-spacing:.03em;padding:.34rem .6rem;border-radius:4px}
+.nav ul a:hover{color:#fff;background:rgba(255,255,255,.1)}
 
-:root {
-    --side-bar-bg-color: #fafafa;
-    --control-text-color: #777;
-}
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;background:linear-gradient(165deg,#fdfefd 0%,#edf7f2 45%,#e6f0f8 100%);color:var(--ink);padding:9rem 1.5rem 4.5rem;text-align:center}
+#lattice-canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+.hero-inner{position:relative;z-index:1;display:inline-block;max-width:880px;background:rgba(255,255,255,.58);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.85);border-radius:20px;padding:2.4rem 3rem;box-shadow:0 10px 34px rgba(25,55,85,.1)}
+@media(max-width:640px){.hero-inner{padding:1.7rem 1.1rem;border-radius:14px}}
+.hero h1{font-family:var(--serif);font-size:clamp(2.3rem,6vw,3.5rem);font-weight:600;letter-spacing:.03em;color:var(--navy);text-shadow:0 1px 12px rgba(255,255,255,.95),0 0 28px rgba(255,255,255,.8)}
+.hero .tagline{color:var(--gold);font-size:.95rem;letter-spacing:.22em;text-transform:uppercase;margin-top:.5rem;text-shadow:0 1px 8px rgba(255,255,255,.9)}
+.hero .affil{margin-top:1.3rem;color:#43536b;font-size:.98rem;line-height:1.7;text-shadow:0 1px 8px rgba(255,255,255,.9)}
+.hero .quote{font-family:var(--serif);font-style:italic;color:#7e90a8;margin-top:1.5rem;font-size:1.02rem;text-shadow:0 1px 8px rgba(255,255,255,.9)}
+.stats{display:flex;justify-content:center;gap:clamp(1.6rem,6vw,3.4rem);margin-top:2.6rem;flex-wrap:wrap}
+.stat .num{font-family:var(--serif);font-size:2.1rem;color:var(--navy);text-shadow:0 1px 8px rgba(255,255,255,.95)}
+.stat .lbl{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:#7c8798}
+.hero .links{margin-top:2.3rem;display:flex;justify-content:center;gap:.55rem;flex-wrap:wrap}
+.hero .links a{border:1.5px solid rgba(19,41,75,.42);color:var(--navy);background:rgba(255,255,255,.55);padding:.42rem 1rem;border-radius:999px;text-decoration:none;font-size:.83rem;transition:all .15s}
+.hero .links a:hover{background:rgba(19,41,75,.08);border-color:var(--navy);color:var(--navy)}
 
-@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+/* ---------- sections ---------- */
+.wrap{max-width:1100px;margin:auto;padding:0 1.4rem}
+section{padding:3.4rem 0 .6rem;scroll-margin-top:70px}
+.sec-head{display:flex;align-items:baseline;gap:.9rem;border-bottom:2px solid var(--navy);padding-bottom:.55rem;margin-bottom:1.7rem}
+.sec-head .idx{font-family:var(--serif);color:var(--gold);font-size:1.15rem;font-weight:700}
+.sec-head h2{font-family:var(--serif);color:var(--navy);font-size:1.65rem;font-weight:600;letter-spacing:.02em}
+.sec-head .en{margin-left:auto;color:var(--muted);font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;white-space:nowrap}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:1.5rem 1.7rem;margin-bottom:1.2rem;box-shadow:0 1px 3px rgba(20,40,70,.05)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+@media(max-width:760px){.grid2{grid-template-columns:1fr}}
 
-html {
-    font-size: 16px;
-}
+/* ---------- timeline (education / appointments) ---------- */
+.tl{border-left:2px solid var(--gold);padding-left:1.35rem}
+.tl-item{position:relative;padding-bottom:1.15rem}
+.tl-item:last-child{padding-bottom:.2rem}
+.tl-item::before{content:'';position:absolute;left:-1.5rem;top:.42rem;width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 2px #fff}
+.tl-item .when{color:var(--gold);font-size:.78rem;letter-spacing:.1em;font-weight:600}
+.tl-item h3{font-family:var(--serif);color:var(--navy);font-size:1.08rem;margin:.1rem 0}
+.tl-item p{color:var(--muted);font-size:.9rem}
 
-body {
-    font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: rgb(51, 51, 51);
-    line-height: 1.6;
-}
+/* ---------- awards ---------- */
+.award{display:flex;gap:1.1rem;align-items:baseline;padding:.55rem .2rem;border-bottom:1px dashed var(--line)}
+.award:last-child{border-bottom:none}
+.award .yr{font-family:var(--serif);color:var(--gold);font-weight:700;min-width:3.2rem;text-align:right}
 
-#write {
-    max-width: 860px;
-  	margin: 0 auto;
-  	padding: 30px;
-    padding-bottom: 100px;
-}
-#write > ul:first-child,
-#write > ol:first-child{
-    margin-top: 30px;
-}
+/* ---------- research interests ---------- */
+.int-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem}
+.int{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:6px;padding:1.1rem 1.3rem}
+.int h3{font-family:var(--serif);color:var(--navy);font-size:1.05rem;margin-bottom:.25rem}
 
-a {
-    color: #4183C4;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    position: relative;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
-    line-height: 1.4;
-    cursor: text;
-}
-h1:hover a.anchor,
-h2:hover a.anchor,
-h3:hover a.anchor,
-h4:hover a.anchor,
-h5:hover a.anchor,
-h6:hover a.anchor {
-    text-decoration: none;
-}
-h1 tt,
-h1 code {
-    font-size: inherit;
-}
-h2 tt,
-h2 code {
-    font-size: inherit;
-}
-h3 tt,
-h3 code {
-    font-size: inherit;
-}
-h4 tt,
-h4 code {
-    font-size: inherit;
-}
-h5 tt,
-h5 code {
-    font-size: inherit;
-}
-h6 tt,
-h6 code {
-    font-size: inherit;
-}
-h1 {
-    padding-bottom: .3em;
-    font-size: 2.25em;
-    line-height: 1.2;
-    border-bottom: 1px solid #eee;
-}
-h2 {
-   padding-bottom: .3em;
-    font-size: 1.75em;
-    line-height: 1.225;
-    border-bottom: 1px solid #eee;
-}
-h3 {
-    font-size: 1.5em;
-    line-height: 1.43;
-}
-h4 {
-    font-size: 1.25em;
-}
-h5 {
-    font-size: 1em;
-}
-h6 {
-   font-size: 1em;
-    color: #777;
-}
-p,
-blockquote,
-ul,
-ol,
-dl,
-table{
-    margin: 0.8em 0;
-}
-li>ol,
-li>ul {
-    margin: 0 0;
-}
-hr {
-    height: 2px;
-    padding: 0;
-    margin: 16px 0;
-    background-color: #e7e7e7;
-    border: 0 none;
-    overflow: hidden;
-    box-sizing: content-box;
-}
+/* ---------- publications ---------- */
+.pf{display:none}
+.pf-tabs{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.5rem}
+.pf-tabs label{padding:.38rem .95rem;border:1px solid var(--line);border-radius:999px;background:#fff;cursor:pointer;font-size:.83rem;color:var(--muted);transition:all .15s}
+.pf-tabs label:hover{border-color:var(--gold);color:var(--gold)}
+#pf-all:checked~.pf-tabs label[for=pf-all],
+#pf-ai:checked~.pf-tabs label[for=pf-ai],
+#pf-spin:checked~.pf-tabs label[for=pf-spin],
+#pf-topo:checked~.pf-tabs label[for=pf-topo],
+#pf-photo:checked~.pf-tabs label[for=pf-photo]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.cat-head{display:none;font-family:var(--serif);color:var(--navy);font-size:1.15rem;margin:1.5rem 0 .5rem;padding:.15rem 0 .15rem .85rem;border-left:4px solid var(--gold)}
+.cat-head:first-of-type{margin-top:0}
+.cat-note{color:var(--muted);font-size:.85rem;margin-bottom:1rem}
+#pf-all:checked~.pubs .cat-head{display:block}
+.pub-list{list-style:none;counter-reset:pub}
+.pub{display:none;counter-increment:pub;grid-template-columns:2.4rem 1fr;column-gap:.7rem;padding:.5rem .8rem;border-radius:6px;font-size:.92rem}
+.pub:hover{background:#f3f0e9}
+.pub::before{content:counter(pub);font-family:var(--serif);color:var(--gold);font-weight:700;text-align:right;line-height:1.65}
+#pf-all:checked~.pubs .pub,
+#pf-ai:checked~.pubs .pub.ai,
+#pf-spin:checked~.pubs .pub.spin,
+#pf-topo:checked~.pubs .pub.topo,
+#pf-photo:checked~.pubs .pub.photo{display:grid}
+.pub em{color:var(--navy2)}
+.pub .doi{font-size:.8rem;white-space:nowrap}
+.badge{display:inline-block;font-size:.66rem;letter-spacing:.05em;color:var(--gold);border:1px solid var(--gold-soft);border-radius:3px;padding:0 .35rem;margin-left:.3rem;vertical-align:12%}
 
-li p.first {
-    display: inline-block;
-}
-ul,
-ol {
-    padding-left: 30px;
-}
-ul:first-child,
-ol:first-child {
-    margin-top: 0;
-}
-ul:last-child,
-ol:last-child {
-    margin-bottom: 0;
-}
-blockquote {
-    border-left: 4px solid #dfe2e5;
-    padding: 0 15px;
-    color: #777777;
-}
-blockquote blockquote {
-    padding-right: 0;
-}
-table {
-    padding: 0;
-    word-break: initial;
-}
-table tr {
-    border-top: 1px solid #dfe2e5;
-    margin: 0;
-    padding: 0;
-}
-table tr:nth-child(2n),
-thead {
-    background-color: #f8f8f8;
-}
-table tr th {
-    font-weight: bold;
-    border: 1px solid #dfe2e5;
-    border-bottom: 0;
-    margin: 0;
-    padding: 6px 13px;
-}
-table tr td {
-    border: 1px solid #dfe2e5;
-    margin: 0;
-    padding: 6px 13px;
-}
-table tr th:first-child,
-table tr td:first-child {
-    margin-top: 0;
-}
-table tr th:last-child,
-table tr td:last-child {
-    margin-bottom: 0;
-}
+/* ---------- talks ---------- */
+.talk{display:flex;gap:1.1rem;padding:.5rem .2rem;border-bottom:1px dashed var(--line);font-size:.92rem;align-items:baseline}
+.talk:last-child{border-bottom:none}
+.talk .yr{font-family:var(--serif);color:var(--gold);font-weight:700;min-width:3.2rem;text-align:right}
+.talk .kind{margin-left:auto;white-space:nowrap;font-size:.72rem;letter-spacing:.05em;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:.1rem .55rem;background:#fff}
+@media(max-width:640px){.talk{flex-wrap:wrap}.talk .kind{margin-left:0}}
 
-.CodeMirror-lines {
-    padding-left: 4px;
-}
+/* ---------- projects ---------- */
+.proj-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1.2rem}
+.proj-group h3{font-family:var(--serif);color:var(--navy);font-size:1.05rem;border-bottom:1px solid var(--line);padding-bottom:.45rem;margin-bottom:.7rem}
+.proj-group ul{list-style:none}
+.proj-group li{padding:.42rem 0;border-bottom:1px dashed var(--line);font-size:.9rem}
+.proj-group li:last-child{border-bottom:none}
+.proj-group .pname{font-weight:600}
+.proj-group .pdesc{color:var(--muted)}
 
-.code-tooltip {
-    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
-    border-top: 1px solid #eef2f2;
-}
-
-.md-fences,
-code,
-tt {
-    border: 1px solid #e7eaed;
-    background-color: #f8f8f8;
-    border-radius: 3px;
-    padding: 0;
-    padding: 2px 4px 0px 4px;
-    font-size: 0.9em;
-}
-
-code {
-    background-color: #f3f4f4;
-    padding: 0 2px 0 2px;
-}
-
-.md-fences {
-    margin-bottom: 15px;
-    margin-top: 15px;
-    padding-top: 8px;
-    padding-bottom: 6px;
-}
-
-
-.md-task-list-item > input {
-  margin-left: -1.3em;
-}
-
-@media print {
-    html {
-        font-size: 13px;
-    }
-    table,
-    pre {
-        page-break-inside: avoid;
-    }
-    pre {
-        word-wrap: break-word;
-    }
-}
-
-.md-fences {
-	background-color: #f8f8f8;
-}
-#write pre.md-meta-block {
-	padding: 1rem;
-    font-size: 85%;
-    line-height: 1.45;
-    background-color: #f7f7f7;
-    border: 0;
-    border-radius: 3px;
-    color: #777777;
-    margin-top: 0 !important;
-}
-
-.mathjax-block>.code-tooltip {
-	bottom: .375rem;
-}
-
-.md-mathjax-midline {
-    background: #fafafa;
-}
-
-#write>h3.md-focus:before{
-	left: -1.5625rem;
-	top: .375rem;
-}
-#write>h4.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
-}
-#write>h5.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
-}
-#write>h6.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
-}
-.md-image>.md-meta {
-    /*border: 1px solid #ddd;*/
-    border-radius: 3px;
-    padding: 2px 0px 0px 4px;
-    font-size: 0.9em;
-    color: inherit;
-}
-
-.md-tag {
-    color: #a7a7a7;
-    opacity: 1;
-}
-
-.md-toc { 
-    margin-top:20px;
-    padding-bottom:20px;
-}
-
-.sidebar-tabs {
-    border-bottom: none;
-}
-
-#typora-quick-open {
-    border: 1px solid #ddd;
-    background-color: #f8f8f8;
-}
-
-#typora-quick-open-item {
-    background-color: #FAFAFA;
-    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
-    border-style: solid;
-    border-width: 1px;
-}
-
-/** focus mode */
-.on-focus-mode blockquote {
-    border-left-color: rgba(85, 85, 85, 0.12);
-}
-
-header, .context-menu, .megamenu-content, footer{
-    font-family: "Segoe UI", "Arial", sans-serif;
-}
-
-.file-node-content:hover .file-node-icon,
-.file-node-content:hover .file-node-open-state{
-    visibility: visible;
-}
-
-.mac-seamless-mode #typora-sidebar {
-    background-color: #fafafa;
-    background-color: var(--side-bar-bg-color);
-}
-
-.md-lang {
-    color: #b4654d;
-}
-
-.html-for-mac .context-menu {
-    --item-hover-bg-color: #E6F0FE;
-}
-
-#md-notification .btn {
-    border: 0;
-}
-
-.dropdown-menu .divider {
-    border-color: #e5e5e5;
-}
-
-.ty-preferences .window-content {
-    background-color: #fafafa;
-}
-
-.ty-preferences .nav-group-item.active {
-    color: white;
-    background: #999;
-}
-
-
+/* ---------- footer ---------- */
+footer{background:var(--navy);color:#93a7c2;text-align:center;padding:2.2rem 1rem;font-size:.83rem;margin-top:3.5rem;line-height:1.9}
+footer a{color:#d8e1ee;text-decoration:none}
+footer a:hover{color:var(--gold-soft)}
 </style>
 </head>
-<body class='typora-export os-windows' >
-<div  id='write'  class = 'is-node'><h1><a name="yang-long" class="md-header-anchor"></a><span>Yang Long</span></h1><blockquote><p><span>Just a person who loves to explore</span></p></blockquote><p><span>Doctor of Physics </span></p><p><span>Theoretical, computational and experimental physics</span></p><p><span>Fingerstyle Guitar Player</span></p><p><span>E-mail: </span><a href='mailto:longyang_123@yeah.net' target='_blank' class='url'>longyang_123@yeah.net</a><span> (Personal)</span></p><p><span>			</span><a href='mailto:yang.long@ntu.edu.sg' target='_blank' class='url'>longyang@tongji.edu.cn</a><span> (Work)</span></p><p><span>Github: </span><a href='https://github.com/longyangking'><span>@longyangking</span></a></p><p><span>Gitee: </span><a href='https://gitee.com/longyangking'><span>@longyangking</span></a></p><p><span>Academic profiles: </span><a href='https://publons.com/researcher/2538759/yang-long/'><span>Publons/ResearcherID</span></a><span> </span></p><p><span>								</span><span>  </span><a href='https://scholar.google.com/citations?hl=en&amp;user=D_YienkAAAAJ&amp;view_op=list_works&amp;sortby=pubdate'><span>Google Scholar</span></a></p><p><span>								</span><span>  </span><a href='https://orcid.org/0000-0001-7600-3396'><span>ORCID</span></a></p><p><span>My thoughts and opinions: </span><a href='thoughts.html'><span>Blog</span></a></p><hr /><h3><a name="main-research-interests" class="md-header-anchor"></a><span>Main research interests</span></h3><blockquote><p><span>Taste is important, which would determine your upper limit</span></p></blockquote><ul><li><span>Spin and wave physics</span></li><li><span>Topological and condensed matter physics</span></li><li><span>Near-field physics</span></li><li><span>Machine learning and inverse design</span></li><li><span>Global and multi-objective optimization</span></li><li><span>Computational science and physics</span></li><li><span>Advanced physics mechanism: time-modulations, metamaterials, RF and nanophotonics devices ...</span></li></ul><hr /><h3><a name="publication-list" class="md-header-anchor"></a><span>Publication List</span></h3><blockquote><p><span>Try to make something different and interesting</span></p></blockquote><ul><li><strong><span>Yang Long</span></strong><span>, Jie Ren, and Hong Chen. &quot;Intrinsic spin of elastic waves.&quot; </span><em><span>Proceedings of the National Academy of Sciences</span></em><span> (PNAS) 115.40 (2018): 9951-9955. </span><a href='https://doi.org/10.1073/PNAS.1808534115'><span>DOI</span></a></li><li><span>Chengzhi Shi#, Rongkuo Zhao#, </span><strong><span>Yang Long</span></strong><span>#, Sui Yang, Yuan Wang, Hong Chen, Jie Ren and Xiang Zhang &quot;Observation of acoustic spin.&quot; </span><em><span>National Science Review</span></em><span> 6.4 (2019): 707-712. (# equally contribute, Cover work) </span><a href='https://doi.org/10.1093/NSR/NWZ059'><span>DOI</span></a></li><li><strong><span>Yang Long</span></strong><span>#, Hao Ge#, Danmei Zhang, Xiangyuan Xu, Jie Ren, Ming-Hui Lu, Ming Bao, Hong Chen, and Yan-Feng Chen “Symmetry Selective Directionality in Near-Field Acoustics” </span><em><span>National Science Review</span></em><span> 7.6 (2020): 1024–1035 </span><a href='https://doi.org/10.1093/NSR/NWAA040'><span>DOI</span></a></li><li><strong><span>Yang Long</span></strong><span>#, Danmei Zhang#, Chenwen Yang, Jianmin Ge, Hong Chen and Jie Ren</span>
-<span>“Realization of acoustic spin transport in metasurface waveguides” </span><em><span>Nature Communications</span></em><span> </span><strong><span>11,</span></strong><span> 4716 (2020) </span><a href='https://doi.org/10.1038/s41467-020-18599-y'><span>DOI</span></a></li><li><strong><span>Yang Long</span></strong><span>, Jie Ren and Hong Chen “Unsupervised Manifold Clustering of Topological Phononics”, </span><em><span>Physical Review Letters</span></em><span> 124, 185501 </span><a href='https://doi.org/10.1103/PhysRevLett.124.185501'><span>DOI</span></a></li><li><strong><span>Yang Long</span></strong><span>, Jie Ren, Zhiwei Guo, Haitao Jiang, Yuqian Wang, Yong Sun, and Hong Chen &quot;Designing All-Electric Subwavelength Metasources for Near-Field Photonic Routings&quot;, </span><em><span>Physical Review Letters</span></em><span> 125, 157401 </span><a href='https://doi.org/10.1103/PhysRevLett.125.157401'><span>DOI</span></a></li><li><strong><span>Yang Long</span></strong><span>*</span><span>, Jie Ren</span><span>*</span><span>, Yunhui Li, and Hong Chen &quot;Inverse design of photonic topological state via machine learning.&quot; </span><em><span>Applied Physics Letters</span></em><span> 114.18 (2019): 181105. (* corresponding author) </span><a href='https://doi.org/10.1063/1.5094838'><span>DOI</span></a></li><li><strong><span>Yang Long</span></strong><span>, Jie Ren &quot;Floquet topological acoustic resonators and acoustic Thouless pumping.&quot; </span><em><span>The Journal of the Acoustical Society of America</span></em><span> 146.1 (2019): 742-747. </span><a href='https://doi.org/10.1121/1.5114914'><span>DOI</span></a></li><li><strong><span>Yang Long</span></strong><span>, Jie Ren, Hai-Tao Jiang, Yong Sun, and Hong Chen &quot;Quantum spin Hall effect in metamaterials.&quot; </span><em><span>Acta Physica Sinica</span></em><span> 66.22 (2017). (invited review) </span><a href='https://doi.org/10.7498/APS.66.227803'><span>DOI</span></a></li><li><strong><span>Yang Long</span></strong><span>, Zhengren Zhang, and Xiaopeng Su. &quot;Robust subwavelength focusing of surface plasmons on graphene.&quot; </span><em><span>EPL (Europhysics Letters)</span></em><span> 116.3 (2016): 37004. </span><a href='https://doi.org/10.1209/0295-5075/116/37004'><span>DOI</span></a></li></ul><p><span>The published papers that I am not first but co-author are not listed here. One can find the details in </span><a href='https://publons.com/researcher/2538759/yang-long/'><span>My Publons</span></a><span>.</span></p><hr /><h3><a name="github-projects" class="md-header-anchor"></a><span>GitHub Projects</span></h3><blockquote><p><span>Almost of them are under developing. You&#39;re most welcome to contact with me to discuss any detail about these projects</span></p></blockquote><ul><li><a href='https://github.com/longyangking/Husky'><span>Husky</span></a><span> Global Optimization Libraries for python</span></li><li><a href='https://github.com/longyangking/MultiMeta'><span>MultiMeta</span></a><span> Optical Multilayer Calculation System</span></li><li><a href='https://github.com/longyangking/Beam'><span>Beam</span></a><span> Beam propagation simulation</span></li></ul><ul><li><a href='https://github.com/longyangking/PlaneMeta'><span>PlaneMeta</span></a><span> Optical Two-dimensional Calculation System</span></li><li><a href='https://github.com/longyangking/PhaseOfMatter'><span>PhaseOfMatter</span></a><span> My own realizations of machine learning phase of matter</span></li><li><a href='https://github.com/longyangking/Gimli'><span>Gimli</span></a><span> Cellular Automaton For Python</span></li><li><a href='https://github.com/longyangking/Corgi'><span>Corgi</span></a><span> Classical/Quantum Monte Carlo Simulation</span></li><li><a href='https://github.com/longyangking/Gandalf'><span>Gandalf</span></a><span> Inverse Engineering via AI</span></li><li><a href='https://github.com/longyangking/MetaTB'><span>MetaTB</span></a><span> Tight binding solover for photonics/phononics system</span></li><li><a href='https://github.com/longyangking/AlphaGomoku'><span>AlphaGomoku</span></a><span> AlphaGomoku: Play Gomoku Game with Artificial Intelligence</span></li><li><a href='https://github.com/longyangking/Gomoku'><span>Gomoku</span></a><span> Gomoku Game</span></li><li><a href='https://github.com/longyangking/Device'><span>Device</span></a><span> Quantum Multiphysics Simulation</span></li><li><a href='https://github.com/longyangking/ShibaInu'><span>ShibaInu</span></a><span> BlockChain Database</span></li><li><a href='https://github.com/longyangking/Ilya'><span>Ilya</span></a><span> 3D reconstruction</span></li><li><a href='https://github.com/longyangking/AlphaMaze'><span>AlphaMaze</span></a><span> Play Maze Game with Artificial Intelligence</span></li><li><a href='https://github.com/longyangking/AlphaSnake'><span>AlphaSnake</span></a><span> Play Retro Snake Game with Artificial Intelligence</span></li><li><a href='https://github.com/longyangking/AlphaTetris'><span>AlphaTetris</span></a><span> Play Tetris Game with Artificial Intelligence</span></li><li><a href='https://github.com/longyangking/AFlowpy'><span>AFlowpy</span></a><span> Python binder for AFLOWLIB.org</span></li><li><a href='https://github.com/longyangking/FlyGame'><span>FlyGame</span></a><span> Fly Game</span></li></ul></div>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top">Yang <em>Long</em></a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#appointments">Appointments</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#talks">Talks</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <canvas id="lattice-canvas" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+  <h1>Yang Long</h1>
+  <p class="tagline">Tenured Associate Professor · Physics</p>
+  <p class="affil">
+    School of Physics Science and Engineering, Tongji University<br>
+    Shanghai 200092, China
+  </p>
+  <p class="quote">&ldquo;Just a person who loves to explore.&rdquo;</p>
+  <div class="stats">
+    <div class="stat"><div class="num">62</div><div class="lbl">Publications</div></div>
+    <div class="stat"><div class="num">2838</div><div class="lbl">Citations</div></div>
+    <div class="stat"><div class="num">30</div><div class="lbl">H-index</div></div>
+  </div>
+  <div class="links">
+    <a href="mailto:longyangphysics@tongji.edu.cn">E-mail</a>
+    <a href="https://scholar.google.com/citations?user=D_YienkAAAAJ" target="_blank">Google Scholar</a>
+    <a href="https://orcid.org/0000-0001-7600-3396" target="_blank">ORCID</a>
+    <a href="https://github.com/longyangking" target="_blank">GitHub</a>
+    <a href="https://gitee.com/longyangking" target="_blank">Gitee</a>
+    <a href="thoughts.html">Blog</a>
+  </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section id="about">
+  <div class="sec-head"><span class="idx">01</span><h2>About</h2><span class="en">Profile</span></div>
+  <div class="card">
+    <p>I am a Tenured Associate Professor in the School of Physics Science and Engineering at Tongji University. My research bridges <strong>wave physics, topology and artificial intelligence</strong>, with a focus on spin angular momentum of classical waves, topological physics, phononic circuit chips and AI for science.</p>
+    <p style="margin-top:.7rem">Previously, I was an <strong>Eric and Wendy Schmidt AI in Science Postdoctoral Fellow</strong> and Research Fellow at Nanyang Technological University, Singapore. Beyond physics, I am a fingerstyle guitar player and an open-source enthusiast.</p>
+    <p style="margin-top:.7rem;color:var(--muted);font-size:.88rem">E-mail: <a href="mailto:longyangphysics@tongji.edu.cn">longyangphysics@tongji.edu.cn</a></p>
+  </div>
+</section>
+
+<section id="education">
+  <div class="sec-head"><span class="idx">02</span><h2>Education</h2><span class="en">Tongji University</span></div>
+  <div class="card">
+    <div class="tl">
+      <div class="tl-item">
+        <div class="when">2017 — 2020</div>
+        <h3>Ph.D. in Physics</h3>
+        <p>School of Physics Science and Engineering, Tongji University, Shanghai, China</p>
+      </div>
+      <div class="tl-item">
+        <div class="when">2013 — 2016</div>
+        <h3>M.Sc. in Condensed Matter Physics</h3>
+        <p>School of Physics Science and Engineering, Tongji University, Shanghai, China</p>
+      </div>
+      <div class="tl-item">
+        <div class="when">2009 — 2013</div>
+        <h3>B.Sc. in Applied Physics</h3>
+        <p>School of Physics Science and Engineering, Tongji University, Shanghai, China</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="appointments">
+  <div class="sec-head"><span class="idx">03</span><h2>Appointments</h2><span class="en">Experience</span></div>
+  <div class="card">
+    <div class="tl">
+      <div class="tl-item">
+        <div class="when">2025 — Present</div>
+        <h3>Tenured Associate Professor</h3>
+        <p>School of Physics Science and Engineering, Tongji University, Shanghai, China</p>
+      </div>
+      <div class="tl-item">
+        <div class="when">2023 — 2025</div>
+        <h3>The Eric and Wendy Schmidt AI in Science Postdoctoral Fellow</h3>
+        <p>School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore</p>
+      </div>
+      <div class="tl-item">
+        <div class="when">2021 — 2025</div>
+        <h3>Research Fellow</h3>
+        <p>School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="awards">
+  <div class="sec-head"><span class="idx">04</span><h2>Scholarships &amp; Awards</h2><span class="en">Honors</span></div>
+  <div class="card">
+    <div class="award"><span class="yr">2026</span><span>PIERS Young Scientist Award (YSA)</span></div>
+    <div class="award"><span class="yr">2025</span><span>Shanghai Science &amp; Technology 35 Under 35</span></div>
+    <div class="award"><span class="yr">2023</span><span>The Eric and Wendy Schmidt AI in Science Postdoctoral Fellowship</span></div>
+    <div class="award"><span class="yr">2021</span><span>Young Outstanding Science and Technology Paper Award, Shanghai Association for Artificial Intelligence (SAAI)</span></div>
+    <div class="award"><span class="yr">2020</span><span>Shanghai Outstanding Graduate</span></div>
+  </div>
+</section>
+
+<section id="research">
+  <div class="sec-head"><span class="idx">05</span><h2>Research Interests</h2><span class="en">Directions</span></div>
+  <div class="int-grid">
+    <div class="int"><h3>AI for Science</h3><p style="color:var(--muted);font-size:.9rem">Unsupervised learning of physical phases, inverse design, and machine-learning methods for wave and topological systems.</p></div>
+    <div class="int"><h3>Spin Angular Momentum of Classical Waves</h3><p style="color:var(--muted);font-size:.9rem">Theory and applications of acoustic, elastic and photonic spin in classical wave systems.</p></div>
+    <div class="int"><h3>Phononic Circuit Chips</h3><p style="color:var(--muted);font-size:.9rem">Chip-scale phononic circuits for wave manipulation and information processing.</p></div>
+    <div class="int"><h3>Topological Physics</h3><p style="color:var(--muted);font-size:.9rem">Theory and applications of topological phases, including non-Hermitian and time-crystalline systems.</p></div>
+    <div class="int"><h3>Photonic / Phononic Crystals</h3><p style="color:var(--muted);font-size:.9rem">Metamaterials, bound states in the continuum and near-field wave devices.</p></div>
+  </div>
+</section>
+
+<section id="publications">
+  <div class="sec-head"><span class="idx">06</span><h2>Publications</h2><span class="en">62 Papers · Categorized</span></div>
+  <div class="card">
+    <input class="pf" type="radio" name="pf" id="pf-all" checked>
+    <input class="pf" type="radio" name="pf" id="pf-ai">
+    <input class="pf" type="radio" name="pf" id="pf-spin">
+    <input class="pf" type="radio" name="pf" id="pf-topo">
+    <input class="pf" type="radio" name="pf" id="pf-photo">
+    <div class="pf-tabs">
+      <label for="pf-all">All · 62</label>
+      <label for="pf-ai">AI for Science · 7</label>
+      <label for="pf-spin">Spin Physics · 13</label>
+      <label for="pf-topo">Topological Physics · 25</label>
+      <label for="pf-photo">Photonics &amp; Metamaterials · 17</label>
+    </div>
+    <p class="cat-note">62 publications · 2838 citations · H-index 30 (<a href="https://scholar.google.com/citations?user=D_YienkAAAAJ" target="_blank">Google Scholar</a>, as of November 3, 2026). <em>*</em> corresponding author, <em>#</em> equal contribution. Full text available on <a href="https://scholar.google.com/citations?user=D_YienkAAAAJ" target="_blank">Google Scholar</a>.</p>
+    <div class="pubs">
+
+      <h3 class="cat-head">AI for Science</h3>
+      <ol class="pub-list">
+        <li class="pub ai"><p><strong>Yang Long</strong>*, Haoran Xue, Baile Zhang*. &ldquo;Unsupervised classification of non-Hermitian topological phases under symmetries.&rdquo; <em>National Science Review</em> 13, nwaf536 (2026). <a class="doi" href="https://doi.org/10.1093/nsr/nwaf536">DOI</a></p></li>
+        <li class="pub ai"><p><strong>Yang Long</strong>*, Haoran Xue, Baile Zhang*. &ldquo;Unsupervised Learning of Topological Non-Abelian Braiding in Non-Hermitian Bands.&rdquo; <em>Nature Machine Intelligence</em> 6, 904&ndash;910 (2024). <a class="doi" href="https://doi.org/10.1038/s42256-024-00871-1">DOI</a></p></li>
+        <li class="pub ai"><p><strong>Yang Long</strong>*, Linyang Zou, Letian Yu, Hao Hu, Jiang Xiong, Baile Zhang*. &ldquo;Inverse design of topological photonic time crystals via deep learning.&rdquo; <em>Optical Materials Express</em> 14, 2032&ndash;2039 (2024)<span class="badge">Editor&rsquo;s Pick</span>. <a class="doi" href="https://doi.org/10.1364/ome.525396">DOI</a></p></li>
+        <li class="pub ai"><p><strong>Yang Long</strong>*, Baile Zhang*. &ldquo;Unsupervised Data-Driven Classification of Topological Gapped Systems with Symmetries.&rdquo; <em>Physical Review Letters</em> 130, 036601 (2023)<span class="badge">Editors&rsquo; Suggestion</span>. <a class="doi" href="https://doi.org/10.1103/physrevlett.130.036601">DOI</a></p></li>
+        <li class="pub ai"><p>Shenshen Yan, Yi Wang, Zhibin Gao, <strong>Yang Long</strong>, Jie Ren*. &ldquo;Directional Design of Materials Based on Multi-Objective Optimization: A Case Study of Two-Dimensional Thermoelectric SnSe.&rdquo; <em>Chinese Physics Letters</em> 38, 027301 (2021). <a class="doi" href="https://doi.org/10.1088/0256-307x/38/2/027301">DOI</a></p></li>
+        <li class="pub ai"><p><strong>Yang Long</strong>, Jie Ren*, Hong Chen. &ldquo;Unsupervised Manifold Clustering of Topological Phononics.&rdquo; <em>Physical Review Letters</em> 124, 185501 (2020). <a class="doi" href="https://doi.org/10.1103/physrevlett.124.185501">DOI</a></p></li>
+        <li class="pub ai"><p><strong>Yang Long</strong>*, Jie Ren*, Yunhui Li, Hong Chen. &ldquo;Inverse design of photonic topological state via machine learning.&rdquo; <em>Applied Physics Letters</em> 114, 181105 (2019). <a class="doi" href="https://doi.org/10.1063/1.5094838">DOI</a></p></li>
+      </ol>
+
+      <h3 class="cat-head">Spin Physics — Spin Angular Momentum of Classical Waves</h3>
+      <ol class="pub-list">
+        <li class="pub spin"><p>Minggui Wei, <strong>Yang Long</strong>*, Gui-Geng Liu, Zheyu Cheng, Song Han, Subhaskar Mandal, Baile Zhang*. &ldquo;Terahertz spin-selective dielectric metasurfaces from exceptional points.&rdquo; <em>PhotoniX</em> 7, 6 (2026). <a class="doi" href="https://doi.org/10.1186/s43074-026-00226-6">DOI</a></p></li>
+        <li class="pub spin"><p>Minggui Wei, <strong>Yang Long</strong>*, Feng Wu*, Gui-Geng Liu, Baile Zhang*. &ldquo;Abrupt lateral beam shifts from terahertz quasi-bound states in the continuum.&rdquo; <em>Science Bulletin</em> 70, 882&ndash;888 (2025). <a class="doi" href="https://doi.org/10.1016/j.scib.2025.01.006">DOI</a></p></li>
+        <li class="pub spin"><p>Chenwen Yang#, Danmei Zhang#, Jinfeng Zhao#, Wenting Gao, Weitao Yuan, <strong>Yang Long</strong>, Yongdong Pan, Hong Chen, Franco Nori, Konstantin Y. Bliokh*, Zheng Zhong*, Jie Ren*. &ldquo;Hybrid Spin and Anomalous Spin-Momentum Locking in Surface Elastic Waves.&rdquo; <em>Physical Review Letters</em> 131, 136102 (2023). <a class="doi" href="https://doi.org/10.1103/physrevlett.131.136102">DOI</a></p></li>
+        <li class="pub spin"><p><strong>Yang Long</strong>, Chenwen Yang, Hong Chen, Jie Ren*. &ldquo;Universal Geometric Relations of Acoustic Spin, Energy Flux, and Reactive Power.&rdquo; <em>Physical Review Applied</em> 19, 064053 (2023). <a class="doi" href="https://doi.org/10.1103/physrevapplied.19.064053">DOI</a></p></li>
+        <li class="pub spin"><p>Feng Wu*, Tingting Liu, <strong>Yang Long</strong>, Shuyuan Xiao, Gengyan Chen. &ldquo;Giant photonic spin Hall effect empowered by polarization-dependent quasibound states in the continuum in compound grating waveguide structures.&rdquo; <em>Physical Review B</em> 107, 165428 (2023). <a class="doi" href="https://doi.org/10.1103/physrevb.107.165428">DOI</a></p></li>
+        <li class="pub spin"><p>Jinfeng Zhao#, Chenwen Yang#, Weitao Yuan#, Danmei Zhang, <strong>Yang Long</strong>, Yongdong Pan, Hong Chen, Zheng Zhong*, Jie Ren*. &ldquo;Elastic Valley Spin Controlled Chiral Coupling in Topological Valley Phononic Crystals.&rdquo; <em>Physical Review Letters</em> 129, 275501 (2022). <a class="doi" href="https://doi.org/10.1103/physrevlett.129.275501">DOI</a></p></li>
+        <li class="pub spin"><p>Weitao Yuan#, Chenwen Yang#, Danmei Zhang, <strong>Yang Long</strong>, Yongdong Pan, Zheng Zhong, Hong Chen, Jinfeng Zhao*, Jie Ren*. &ldquo;Observation of elastic spin with chiral meta-sources.&rdquo; <em>Nature Communications</em> 12, 6954 (2021). <a class="doi" href="https://doi.org/10.1038/s41467-021-27254-z">DOI</a></p></li>
+        <li class="pub spin"><p>Shuo Xin, <strong>Yang Long</strong>, Jie Ren*. &ldquo;Spin angular momentum of gravitational wave interference.&rdquo; <em>New Journal of Physics</em> 23, 043035 (2021). <a class="doi" href="https://doi.org/10.1088/1367-2630/abf23f">DOI</a></p></li>
+        <li class="pub spin"><p><strong>Yang Long</strong>#, Danmei Zhang#, Chenwen Yang, Jianmin Ge, Hong Chen, Jie Ren*. &ldquo;Realization of acoustic spin transport in metasurface waveguides.&rdquo; <em>Nature Communications</em> 11, 4716 (2020). <a class="doi" href="https://doi.org/10.1038/s41467-020-18599-y">DOI</a></p></li>
+        <li class="pub spin"><p><strong>Yang Long</strong>#, Hao Ge#, Danmei Zhang, Xiangyuan Xu, Jie Ren*, Ming-Hui Lu*, Ming Bao, Hong Chen, Yan-Feng Chen. &ldquo;Symmetry Selective Directionality in Near-Field Acoustics.&rdquo; <em>National Science Review</em> 7, 1024&ndash;1035 (2020). <a class="doi" href="https://doi.org/10.1093/nsr/nwaa040">DOI</a></p></li>
+        <li class="pub spin"><p>Chengzhi Shi#, Rongkuo Zhao#, <strong>Yang Long</strong>#, Sui Yang, Yuan Wang, Hong Chen, Jie Ren*, Xiang Zhang*. &ldquo;Observation of acoustic spin.&rdquo; <em>National Science Review</em> 6, 707&ndash;712 (2019)<span class="badge">Cover</span>. <a class="doi" href="https://doi.org/10.1093/nsr/nwz059">DOI</a></p></li>
+        <li class="pub spin"><p><strong>Yang Long</strong>, Jie Ren, Hong Chen. &ldquo;Intrinsic spin of elastic waves.&rdquo; <em>Proceedings of the National Academy of Sciences</em> 115, 9951&ndash;9955 (2018). <a class="doi" href="https://doi.org/10.1073/pnas.1808534115">DOI</a></p></li>
+        <li class="pub spin"><p>Zhiwei Guo, Hai-tao Jiang*, <strong>Yang Long</strong>, Kun Yu, Jie Ren, Chunhua Xue, Hong Chen. &ldquo;Photonic spin Hall effect in waveguides composed of two types of single-negative metamaterials.&rdquo; <em>Scientific Reports</em> 7, 7742 (2017). <a class="doi" href="https://doi.org/10.1038/s41598-017-08171-y">DOI</a></p></li>
+      </ol>
+
+      <h3 class="cat-head">Topological Physics — Theory &amp; Applications</h3>
+      <ol class="pub-list">
+        <li class="pub topo"><p>Minggui Wei, <strong>Yang Long</strong>*, Gui-Geng Liu*, Jianwei Liu, Manjima Sudheer, Elbert E. M. Chia, Baile Zhang*. &ldquo;Topological valley quasi-bound states in the continuum for radiatively accessible robust transport.&rdquo; <em>Nature Communications</em> 17, 10381 (2026). <a class="doi" href="https://doi.org/10.1038/s41467-026-77201-z">DOI</a></p></li>
+        <li class="pub topo"><p>Junkai Jiang#, Hao Hu#*, <strong>Yang Long</strong>, Liangliang Liu, Songyan Hou, Dongjue Liu*, Zhuo Li*. &ldquo;Broadband temporal localization and delocalized temporal edge states in time photonic crystals.&rdquo; <em>Physical Review A</em> 113, 043520 (2026). <a class="doi" href="https://doi.org/10.1103/kvmh-vk3k">DOI</a></p></li>
+        <li class="pub topo"><p>Yuang Pan, Liang Si, Miao Yang, Ning Han, Li Zhang, Qiaolu Chen, Rui Zhao, Fujia Chen, Yudong Ren, Wenhao Li, Yuze Hu, Mingyu Tong, Xinrui Li, Junyao Wu, Ronghao Bao, Weiqiu Chen, <strong>Yang Long</strong>*, Bin Wu*, Hongsheng Chen, Baile Zhang*, Yihao Yang*. &ldquo;Realization of elastic Weyl semimetal phases with skyrmion spin textures.&rdquo; <em>Science Bulletin</em> 71, 1602&ndash;1606 (2026). <a class="doi" href="https://doi.org/10.1016/j.scib.2026.02.039">DOI</a></p></li>
+        <li class="pub topo"><p>Ruifeng Li#*, Rimi Banerjee#, Subhaskar Mandal#, Da Li#, <strong>Yang Long</strong>, Tianchi Ma, Jian-Wei Liu, Gui-Geng Liu, Yidong Chong*, Baile Zhang*, Er-Ping Li*. &ldquo;Observation of Fractional Disclination Charges Induced by Gain and Loss.&rdquo; <em>Electromagnetic Science</em> 4, 0130542 (2026). <a class="doi" href="https://doi.org/10.23919/emsci.2025.0054">DOI</a></p></li>
+        <li class="pub topo"><p>Jiang Xiong, Xudong Zhang, Longji Duan, Jiarui Wang, <strong>Yang Long</strong>, Haonan Hou, Letian Yu, Linyang Zou*, Baile Zhang*. &ldquo;Observation of wave amplification and temporal topological state in a non-synthetic photonic time crystal.&rdquo; <em>Nature Communications</em> 16, 11182 (2025). <a class="doi" href="https://doi.org/10.1038/s41467-025-66154-4">DOI</a></p></li>
+        <li class="pub topo"><p>Zheyu Cheng, Sijie Yue, <strong>Yang Long</strong>, Wentao Xie, Zixuan Yu, Hau Tian Teo, Y. X. Zhao*, Haoran Xue*, Baile Zhang*. &ldquo;Observation of returning Thouless pumping.&rdquo; <em>Nature Communications</em> 16, 9669 (2025). <a class="doi" href="https://doi.org/10.1038/s41467-025-64671-w">DOI</a></p></li>
+        <li class="pub topo"><p>Hau Tian Teo, <strong>Yang Long</strong>*, Hong-yu Zou, Kailin Song, Haoran Xue, Yong Ge, Shou-qi Yuan, Hong-xiang Sun*, Baile Zhang*. &ldquo;Observation of embedded topology in a trivial bulk via projective crystal symmetry.&rdquo; <em>Physical Review Letters</em> 135, 136602 (2025)<span class="badge">Editors&rsquo; Suggestion</span><span class="badge">Cover</span>. <a class="doi" href="https://doi.org/10.1103/9tq1-37j1">DOI</a></p></li>
+        <li class="pub topo"><p>Xiaozhe Li, <strong>Yang Long</strong>, Yan Zhou, Hao Chen, Lifa Zhang*. &ldquo;Manipulating topological chiral phonons with a magnetic field.&rdquo; <em>Physical Review B</em> 112, 064302 (2025). <a class="doi" href="https://doi.org/10.1103/j7xq-djbg">DOI</a></p></li>
+        <li class="pub topo"><p>Yukun Yang#, Hao Hu#*, Liangliang Liu#, Yihao Yang, Youxiu Yu, <strong>Yang Long</strong>, Xuezhi Zheng, Yu Luo*, Zhuo Li*, Francisco J. Garcia-Vidal. &ldquo;Topologically Protected Edge States in Time Photonic Crystals with Chiral Symmetry.&rdquo; <em>ACS Photonics</em> 12, 2389&ndash;2396 (2025). <a class="doi" href="https://doi.org/10.1021/acsphotonics.4c01785">DOI</a></p></li>
+        <li class="pub topo"><p>Gui-Geng Liu#, Subhaskar Mandal#, Xiang Xi#, Qiang Wang#, Chiara Devescovi, Antonio Morales-P&eacute;rez, Ziyao Wang, Linyun Yang, Rimi Banerjee, <strong>Yang Long</strong>, Yan Meng, Peiheng Zhou, Zhen Gao, Yidong Chong, Aitzol Garc&iacute;a-Etxarri, Maia G. Vergniory, Baile Zhang*. &ldquo;Photonic axion insulator.&rdquo; <em>Science</em> 387, 162&ndash;166 (2025). <a class="doi" href="https://doi.org/10.1126/science.adr5234">DOI</a></p></li>
+        <li class="pub topo"><p>Xiaozhe Li, <strong>Yang Long</strong>, Tingting Wang, Yan Zhou*, Lifa Zhang*. &ldquo;Utilizing topological invariants for encoding and manipulating chiral phonon devices.&rdquo; <em>Applied Physics Letters</em> 124, 252201 (2024). <a class="doi" href="https://doi.org/10.1063/5.0201725">DOI</a></p></li>
+        <li class="pub topo"><p><strong>Yang Long</strong>#, Zihao Wang#, Chen Zhang, Haoran Xue, Y. X. Zhao*, Baile Zhang*. &ldquo;Non-Abelian Braiding of Topological Edge Bands.&rdquo; <em>Physical Review Letters</em> 132, 236401 (2024). <a class="doi" href="https://doi.org/10.1103/physrevlett.132.236401">DOI</a></p></li>
+        <li class="pub topo"><p>Hau Tian Teo, Subhaskar Mandal, <strong>Yang Long</strong>, Haoran Xue*, Baile Zhang*. &ldquo;Pseudomagnetic suppression of non-Hermitian skin effect.&rdquo; <em>Science Bulletin</em> 69, 1667&ndash;1673 (2024). <a class="doi" href="https://doi.org/10.1016/j.scib.2024.04.023">DOI</a></p></li>
+        <li class="pub topo"><p>Zheyu Cheng#, Yi-Jun Guan#, Haoran Xue*, Yong Ge, Ding Jia, <strong>Yang Long</strong>, Shou-Qi Yuan, Hong-Xiang Sun*, Yidong Chong*, Baile Zhang*. &ldquo;Three-dimensional flat Landau levels in an inhomogeneous acoustic crystal.&rdquo; <em>Nature Communications</em> 15, 2174 (2024). <a class="doi" href="https://doi.org/10.1038/s41467-024-46517-z">DOI</a></p></li>
+        <li class="pub topo"><p>Weitao Yuan, Jinfeng Zhao*, <strong>Yang Long</strong>, Xiaoqing Zhang, Jie Ren, Zheng Zhong*. &ldquo;Theoretical and experimental demonstrations of the transversely symmetric and antisymmetric properties of topological edge states.&rdquo; <em>Journal of Physics D: Applied Physics</em> 56, 445305 (2023). <a class="doi" href="https://doi.org/10.1088/1361-6463/ace9e8">DOI</a></p></li>
+        <li class="pub topo"><p>Haoran Xue, Z. Y. Chen, Zheyu Cheng, J. X. Dai, <strong>Yang Long</strong>, Y. X. Zhao*, Baile Zhang*. &ldquo;Stiefel-Whitney topological charges in a three-dimensional acoustic nodal-line crystal.&rdquo; <em>Nature Communications</em> 14, 4563 (2023). <a class="doi" href="https://doi.org/10.1038/s41467-023-40252-7">DOI</a></p></li>
+        <li class="pub topo"><p>Feng Wu*, Hongju Li, Shi Hu, Ying Chen, <strong>Yang Long</strong>*. &ldquo;Angle-insensitive topological interface states in hybrid one-dimensional photonic crystal heterostructures containing all-dielectric metamaterials.&rdquo; <em>Optics Letters</em> 48, 3035&ndash;3038 (2023). <a class="doi" href="https://doi.org/10.1364/ol.493788">DOI</a></p></li>
+        <li class="pub topo"><p>Zhiwei Guo*, Haoran Xue*, <strong>Yang Long</strong>*, Chengzhi Qin*, Liang Jin*. &ldquo;Editorial: Non-Hermitian and Topological Photonics.&rdquo; <em>Frontiers in Physics</em> 11, 1177898 (2023). <a class="doi" href="https://doi.org/10.3389/fphy.2023.1177898">DOI</a></p></li>
+        <li class="pub topo"><p><strong>Yang Long</strong>, Haoran Xue, Baile Zhang*. &ldquo;Non-Hermitian topological systems with eigenvalues that are always real.&rdquo; <em>Physical Review B</em> 105, L100102 (2022). <a class="doi" href="https://doi.org/10.1103/physrevb.105.l100102">DOI</a></p></li>
+        <li class="pub topo"><p>Weitao Yuan, Jinfeng Zhao*, <strong>Yang Long</strong>, Jie Ren, Zheng Zhong. &ldquo;Multi-branch valley-chiral edge states of antisymmetric plate wave in phononic crystal plates with double-sided symmetric pillars.&rdquo; <em>International Journal of Mechanical Sciences</em> 197, 106347 (2021). <a class="doi" href="https://doi.org/10.1016/j.ijmecsci.2021.106347">DOI</a></p></li>
+        <li class="pub topo"><p>Jun Jiang, Jie Ren*, Zhiwei Guo*, Weiwei Zhu, <strong>Yang Long</strong>, Haitao Jiang, Hong Chen*. &ldquo;Seeing topological winding number and band inversion in photonic dimer chain of split-ring resonators.&rdquo; <em>Physical Review B</em> 101, 165427 (2020). <a class="doi" href="https://doi.org/10.1103/physrevb.101.165427">DOI</a></p></li>
+        <li class="pub topo"><p><strong>Yang Long</strong>, Jie Ren. &ldquo;Floquet topological acoustic resonators and acoustic Thouless pumping.&rdquo; <em>The Journal of the Acoustical Society of America</em> 146, 742&ndash;747 (2019). <a class="doi" href="https://doi.org/10.1121/1.5114914">DOI</a></p></li>
+        <li class="pub topo"><p>Weiwei Zhu, <strong>Yang Long</strong>, Hong Chen, Jie Ren*. &ldquo;Quantum valley Hall effects and spin-valley locking in topological Kane-Mele circuit networks.&rdquo; <em>Physical Review B</em> 99, 115410 (2019). <a class="doi" href="https://doi.org/10.1103/physrevb.99.115410">DOI</a></p></li>
+        <li class="pub topo"><p>Weiwei Zhu, Shanshan Hou, <strong>Yang Long</strong>, Hong Chen, Jie Ren*. &ldquo;Simulating quantum spin Hall effect in the topological Lieb lattice of a linear circuit network.&rdquo; <em>Physical Review B</em> 97, 075310 (2018). <a class="doi" href="https://doi.org/10.1103/physrevb.97.075310">DOI</a></p></li>
+        <li class="pub topo"><p><strong>Yang Long</strong>, Jie Ren*, Hai-Tao Jiang, Yong Sun, Hong Chen. &ldquo;Quantum spin Hall effect in metamaterials.&rdquo; <em>Acta Physica Sinica</em> 66, 227803 (2017)<span class="badge">Invited Review</span>. <a class="doi" href="https://doi.org/10.7498/aps.66.227803">DOI</a></p></li>
+      </ol>
+
+      <h3 class="cat-head">Photonics &amp; Metamaterials — Crystals, Metasurfaces and Plasmonics</h3>
+      <ol class="pub-list">
+        <li class="pub photo"><p>Youxiu Yu, Xiaofeng Xu, <strong>Yang Long</strong>, Gui-Geng Liu, Dongliang Gao, Xiao Lin*, Hao Hu*. &ldquo;A Time Grating Approach to Ultrahigh-Q Guided Mode Resonance.&rdquo; <em>Laser &amp; Photonics Reviews</em> 20, e71179 (2026). <a class="doi" href="https://doi.org/10.1002/lpor.71179">DOI</a></p></li>
+        <li class="pub photo"><p>Feng Wu*, Jiayi Ruan, Ying Chen, <strong>Yang Long</strong>, Shuyuan Xiao. &ldquo;Theoretical approach to breaking the angular dispersion limit of Fano resonances in thin-film optics.&rdquo; <em>Optics Letters</em> 51, 2828&ndash;2831 (2026). <a class="doi" href="https://doi.org/10.1364/ol.592025">DOI</a></p></li>
+        <li class="pub photo"><p>Feng Wu*, Xin Qi, Meibao Qin, Ma Luo, <strong>Yang Long</strong>, Jiaju Wu, Yong Sun, Haitao Jiang*, Tingting Liu, Shuyuan Xiao*, Hong Chen. &ldquo;Momentum mismatch driven bound states in the continuum and ellipsometric phase singularities.&rdquo; <em>Physical Review B</em> 109, 085436 (2024). <a class="doi" href="https://doi.org/10.1103/physrevb.109.085436">DOI</a></p></li>
+        <li class="pub photo"><p>Feng Wu*, Ying Chen, <strong>Yang Long</strong>, Guanghui Liu, Hanying Deng, Hongju Li. &ldquo;Polarization-sensitive optical Tamm state and its application in polarization-sensitive absorption.&rdquo; <em>Results in Physics</em> 40, 105818 (2022). <a class="doi" href="https://doi.org/10.1016/j.rinp.2022.105818">DOI</a></p></li>
+        <li class="pub photo"><p>Zhiwei Guo#*, <strong>Yang Long</strong>#*, Haitao Jiang, Jie Ren, Hong Chen. &ldquo;Anomalous unidirectional excitation of high-k hyperbolic modes using all-electric metasources.&rdquo; <em>Advanced Photonics</em> 3, 036001 (2021). <a class="doi" href="https://doi.org/10.1117/1.ap.3.3.036001">DOI</a></p></li>
+        <li class="pub photo"><p>Feng Wu*, <strong>Yang Long</strong>, Hongju Li, Ying Chen, Meiyan Pan, Xiaohu Wu. &ldquo;Frequency-tunable terahertz angular selectivity based on a dielectric-graphene multilayer structure.&rdquo; <em>Applied Optics</em> 60, 2811&ndash;2816 (2021). <a class="doi" href="https://doi.org/10.1364/ao.419723">DOI</a></p></li>
+        <li class="pub photo"><p>Feng Wu*, Mingyuan Chen, Dejun Liu, Ying Chen, <strong>Yang Long</strong>. &ldquo;Broadband omnidirectional near-infrared reflector based on an angle-insensitive photonic band gap.&rdquo; <em>Applied Optics</em> 59, 9621&ndash;9625 (2020). <a class="doi" href="https://doi.org/10.1364/ao.403891">DOI</a></p></li>
+        <li class="pub photo"><p><strong>Yang Long</strong>, Jie Ren, Zhiwei Guo*, Haitao Jiang*, Yuqian Wang, Yong Sun, Hong Chen. &ldquo;Designing All-Electric Subwavelength Metasources for Near-Field Photonic Routings.&rdquo; <em>Physical Review Letters</em> 125, 157401 (2020). <a class="doi" href="https://doi.org/10.1103/physrevlett.125.157401">DOI</a></p></li>
+        <li class="pub photo"><p>Gaomin Wu, <strong>Yang Long</strong>, Jie Ren*. &ldquo;Asymmetric nonlinear system is not sufficient for a nonreciprocal wave diode.&rdquo; <em>Physical Review B</em> 97, 205423 (2018). <a class="doi" href="https://doi.org/10.1103/physrevb.97.205423">DOI</a></p></li>
+        <li class="pub photo"><p>Zhengren Zhang*, Xiaofei Zang, <strong>Yang Long</strong>, Pengyu Ma, Leng Liao, Hongqiang Li. &ldquo;Dynamically Manipulating the Plasmon-Induced Transparency-Like in Asymmetric Graphene-Based Waveguide Structures.&rdquo; <em>Journal of Lightwave Technology</em> 35, 5020&ndash;5023 (2017). <a class="doi" href="https://doi.org/10.1109/jlt.2017.2765381">DOI</a></p></li>
+        <li class="pub photo"><p>Zhengren Zhang*, <strong>Yang Long</strong>, Pengyu Ma, Hongqiang Li. &ldquo;Tunable high-channel-count bandstop graphene plasmonic filters based on plasmon induced transparency.&rdquo; <em>Nanotechnology</em> 28, 475205 (2017). <a class="doi" href="https://doi.org/10.1088/1361-6528/aa9017">DOI</a></p></li>
+        <li class="pub photo"><p>Zhengren Zhang*, Yuancheng Fan, <strong>Yang Long</strong>, Pengfei Yin. &ldquo;Theoretical realization of dynamically tunable double plasmonically induced transparency in a graphene-based waveguide structure.&rdquo; <em>Optical Materials</em> 72, 632&ndash;636 (2017). <a class="doi" href="https://doi.org/10.1016/j.optmat.2017.07.003">DOI</a></p></li>
+        <li class="pub photo"><p>Zhengren Zhang*, <strong>Yang Long</strong>, Liwei Zhang, Pengfei Yin*, Chunhua Xue. &ldquo;The Optical Bloch oscillation in chirped one-dimensional superconducting photonic crystal.&rdquo; <em>Physica B: Condensed Matter</em> 521, 56&ndash;61 (2017). <a class="doi" href="https://doi.org/10.1016/j.physb.2017.06.049">DOI</a></p></li>
+        <li class="pub photo"><p>Zhengren Zhang*, <strong>Yang Long</strong>, Xiaofei Zang. &ldquo;Unidirectional plasmonically induced transparency behavior in a compact graphene-based waveguide.&rdquo; <em>Journal of Physics D: Applied Physics</em> 50, 295301 (2017). <a class="doi" href="https://doi.org/10.1088/1361-6463/aa793c">DOI</a></p></li>
+        <li class="pub photo"><p><strong>Yang Long</strong>, Zhengren Zhang*, Xiaopeng Su. &ldquo;Robust subwavelength focusing of surface plasmons on graphene.&rdquo; <em>EPL (Europhysics Letters)</em> 116, 37004 (2016). <a class="doi" href="https://doi.org/10.1209/0295-5075/116/37004">DOI</a></p></li>
+        <li class="pub photo"><p>Xiaopeng Su, Zeyong Wei, Chao Wu, <strong>Yang Long</strong>, Hongqiang Li*. &ldquo;Negative reflection from metal/graphene plasmonic gratings.&rdquo; <em>Optics Letters</em> 41, 348&ndash;351 (2016). <a class="doi" href="https://doi.org/10.1364/ol.41.000348">DOI</a></p></li>
+        <li class="pub photo"><p>Zeyong Wei, Yang Cao, Xiaopeng Su, Zhijie Gong, <strong>Yang Long</strong>, Hongqiang Li*. &ldquo;Highly efficient beam steering with a transparent metasurface.&rdquo; <em>Optics Express</em> 21, 10739&ndash;10745 (2013). <a class="doi" href="https://doi.org/10.1364/oe.21.010739">DOI</a></p></li>
+      </ol>
+
+    </div>
+  </div>
+</section>
+
+<section id="talks">
+  <div class="sec-head"><span class="idx">07</span><h2>Conferences &amp; Talks</h2><span class="en">Presentations</span></div>
+  <div class="card">
+    <div class="talk"><span class="yr">2026</span><span>&ldquo;Unsupervised Generative Graphics of Generalized Brillouin Zone&rdquo;, CPS 2026, Changsha, China</span><span class="kind">Invited Talk</span></div>
+    <div class="talk"><span class="yr">2026</span><span>&ldquo;Unsupervised Classification of Non-Hermitian Topological Phases under Symmetries&rdquo;, PIERS 2026, Suzhou, China</span><span class="kind">Invited Talk</span></div>
+    <div class="talk"><span class="yr">2026</span><span>&ldquo;Unsupervised classifications of non-Hermitian topological phases&rdquo;, CIOP 2026, Nanjing, China</span><span class="kind">Invited Talk</span></div>
+    <div class="talk"><span class="yr">2025</span><span>&ldquo;Unsupervised classifications of non-Hermitian topological phases&rdquo;, CPS 2025, Harbin, China</span><span class="kind">Best Oral</span></div>
+    <div class="talk"><span class="yr">2024</span><span>&ldquo;Unsupervised Learning of Topological Non-Abelian Braiding in Non-Hermitian Bands&rdquo;, QTN 2024, Singapore</span><span class="kind">Poster + Oral Pitch</span></div>
+    <div class="talk"><span class="yr">2024</span><span>&ldquo;Unsupervised Learning of Topological Non-Abelian Braiding in Non-Hermitian Bands&rdquo;, PIERS 2024, Chengdu, China</span><span class="kind">Invited Talk</span></div>
+    <div class="talk"><span class="yr">2024</span><span>&ldquo;Inverse Design of Topological Photonic Time Crystal via Deep Learning&rdquo;, PIERS 2024, Chengdu, China</span><span class="kind">Invited Talk</span></div>
+    <div class="talk"><span class="yr">2023</span><span>&ldquo;Unsupervised data-driven classification of topological gapped systems with symmetries&rdquo;, AI for Science Summit 2023, Cambridge, UK</span><span class="kind">Poster</span></div>
+    <div class="talk"><span class="yr">2023</span><span>&ldquo;Topological Classification of Topological Gapped Systems via Machine Learning&rdquo;, IPS Meeting 2023, Singapore</span><span class="kind">Talk</span></div>
+    <div class="talk"><span class="yr">2023</span><span>&ldquo;Symmetry-protected braiding of topological edge states&rdquo;, PIERS 2023, Prague, Czech Republic</span><span class="kind">Invited Talk</span></div>
+    <div class="talk"><span class="yr">2023</span><span>&ldquo;Topological Classification of Topological Gapped Systems via Machine Learning&rdquo;, PIERS 2023, Prague, Czech Republic</span><span class="kind">Invited Talk</span></div>
+    <div class="talk"><span class="yr">2022</span><span>&ldquo;Unsupervised data-driven classification of topological gapped systems with symmetries&rdquo;, QGA Workshop 2022, Singapore</span><span class="kind">Poster</span></div>
+    <div class="talk"><span class="yr">2022</span><span>&ldquo;Non-Hermitian topological systems with eigenvalues that are always real&rdquo;, IPS Meeting 2022, Singapore</span><span class="kind">Poster</span></div>
+    <div class="talk"><span class="yr">2022</span><span>&ldquo;Non-Hermitian topological systems with eigenvalues that are always real&rdquo;, QTN 2022, Singapore</span><span class="kind">Poster</span></div>
+    <div class="talk"><span class="yr">2019</span><span>&ldquo;Inverse design of topological photonic states via machine learning&rdquo;, Topological Photonics and Beyond (TPB&rsquo;19), Tianjin, China</span><span class="kind">Best Poster</span></div>
+    <div class="talk"><span class="yr">2019</span><span>&ldquo;Floquet topological acoustic resonators and acoustic Thouless pumping&rdquo;, Phononics 2019, Tucson, USA</span><span class="kind">Poster</span></div>
+    <div class="talk"><span class="yr">2019</span><span>&ldquo;Floquet topological acoustic resonators and acoustic Thouless pumping&rdquo;, AmeriMech 2019, Missouri, USA</span><span class="kind">Talk</span></div>
+    <div class="talk"><span class="yr">2018</span><span>&ldquo;Floquet topological acoustic resonators and acoustic Thouless pumping&rdquo;, Dynamics Days Asia-Pacific 10 (DDAP 10), Xiamen, China</span><span class="kind">Best Poster</span></div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="sec-head"><span class="idx">08</span><h2>GitHub Projects</h2><span class="en">Open Source</span></div>
+  <p style="margin:0 0 1.2rem;color:var(--muted);font-size:.9rem">Most of them are under development. You are most welcome to contact me to discuss any detail about these projects.</p>
+  <div class="proj-grid">
+    <div class="card proj-group">
+      <h3>Scientific Computing &amp; Physics</h3>
+      <ul>
+        <li><a class="pname" href="https://github.com/longyangking/Husky">Husky</a> <span class="pdesc">— Global optimization libraries for Python</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/MultiMeta">MultiMeta</a> <span class="pdesc">— Optical multilayer calculation system</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/PlaneMeta">PlaneMeta</a> <span class="pdesc">— Optical two-dimensional calculation system</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/MetaFDTD">MetaFDTD</a> <span class="pdesc">— Optical three-dimensional FDTD calculation system</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/MetaSurface">MetaSurface</a> <span class="pdesc">— Optical grating/surface calculation system</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/ScatterMeta">ScatterMeta</a> <span class="pdesc">— Optical scatter calculation system</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/GreenMeta">GreenMeta</a> <span class="pdesc">— Calculation of optical Green&rsquo;s functions</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/RayMeta">RayMeta</a> <span class="pdesc">— Ray optics calculation system</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/RadioHeatMeta">RadioHeatMeta</a> <span class="pdesc">— Radiative heat transfer calculations</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/ThermalRadiation3DMeta">ThermalRadiation3DMeta</a> <span class="pdesc">— Thermal radiation calculation for 3D objects</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Beam">Beam</a> <span class="pdesc">— Beam propagation simulation</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/MetaTB">MetaTB</a> <span class="pdesc">— Tight-binding models of super crystals with meta-atoms</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/TopologyMeta">TopologyMeta</a> <span class="pdesc">— Calculation of topological properties</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/MechNetMeta">MechNetMeta</a> <span class="pdesc">— Mechanical structures and spring networks calculation</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Lattice">Lattice</a> <span class="pdesc">— Calculator and generator for lattices</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/SaintBernard">SaintBernard</a> <span class="pdesc">— Finding and handling two-dimensional crystal symmetries</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Device">Device</a> <span class="pdesc">— Quantum multi-physics simulation system</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Circuit">Circuit</a> <span class="pdesc">— Circuit design &amp; simulation system</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/QModel">QModel</a> <span class="pdesc">— Quantum model of wave devices</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/QubitFlow">QubitFlow</a> <span class="pdesc">— Quantum circuit for humans</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Materials">Materials</a> <span class="pdesc">— Ab initio materials calculation</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Spike">Spike</a> <span class="pdesc">— Python interface for COMSOL</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Corgi">Corgi</a> <span class="pdesc">— Classical / quantum Monte Carlo simulation</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/MetaGroup">MetaGroup</a> <span class="pdesc">— Group theory calculation system</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Pug">Pug</a> <span class="pdesc">— Calculator and analyzer of stochastic processes</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Aragorn">Aragorn</a> <span class="pdesc">— Calculator and analyzer of complex systems</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Queuer">Queuer</a> <span class="pdesc">— Calculation, simulation and optimization of queueing systems</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AFlowpy">AFlowpy</a> <span class="pdesc">— Python binder for AFLOWLIB.org</span></li>
+      </ul>
+    </div>
+    <div class="card proj-group">
+      <h3>AI &amp; Machine Learning</h3>
+      <ul>
+        <li><a class="pname" href="https://github.com/longyangking/Gandalf">Gandalf</a> <span class="pdesc">— Inverse engineering via AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Excalibur">Excalibur</a> <span class="pdesc">— Home-made machine learning framework</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/PhaseOfMatter">PhaseOfMatter</a> <span class="pdesc">— Machine learning phases of matter</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/QuantumManyBody">QuantumManyBody</a> <span class="pdesc">— Quantum many-body problems with machine learning</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/QuantumLoopTopography">QuantumLoopTopography</a> <span class="pdesc">— Quantum loop topography for machine learning</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Tricker">Tricker</a> <span class="pdesc">— AI model based on GAN networks</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/KerasPlus">KerasPlus</a> <span class="pdesc">— Extensions to Keras</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Gimli">Gimli</a> <span class="pdesc">— Cellular automaton for Python</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/DeltaCA">DeltaCA</a> <span class="pdesc">— Cellular automaton on NVIDIA GPU (CUDA)</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Ilya">Ilya</a> <span class="pdesc">— 3D reconstruction</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Dota2Analyser">Dota2Analyser</a> <span class="pdesc">— Dota 2 data analysis based on machine learning</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaGuitar">AlphaGuitar</a> <span class="pdesc">— Machine learning of guitar music</span></li>
+      </ul>
+    </div>
+    <div class="card proj-group">
+      <h3>Game AI &mdash; Alpha Series</h3>
+      <ul>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaStarcraft">AlphaStarcraft</a> <span class="pdesc">— StarCraft game with artificial intelligence</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaAtari">AlphaAtari</a> <span class="pdesc">— Atari games with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaMinecraft">AlphaMinecraft</a> <span class="pdesc">— Minecraft with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Ares">Ares</a> <span class="pdesc">— Dota 2 AI (Lua)</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaGomoku">AlphaGomoku</a> <span class="pdesc">— Gomoku with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaMaze">AlphaMaze</a> <span class="pdesc">— Maze game with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaSnake">AlphaSnake</a> <span class="pdesc">— Retro snake with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaTetris">AlphaTetris</a> <span class="pdesc">— Tetris with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaMinesweeper">AlphaMinesweeper</a> <span class="pdesc">— Minesweeper with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Alpha2048">Alpha2048</a> <span class="pdesc">— 2048 with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaXiangqi">AlphaXiangqi</a> <span class="pdesc">— Xiangqi (Chinese chess) with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaSudoku">AlphaSudoku</a> <span class="pdesc">— Sudoku with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaDownstair">AlphaDownstair</a> <span class="pdesc">— Downstair game with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaSurround">AlphaSurround</a> <span class="pdesc">— Surround game with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaTrail">AlphaTrail</a> <span class="pdesc">— Trail game with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaUFO">AlphaUFO</a> <span class="pdesc">— UFO game with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaDriver">AlphaDriver</a> <span class="pdesc">— Car driving game with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaTower">AlphaTower</a> <span class="pdesc">— Tower defense game with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaBulletScreen">AlphaBulletScreen</a> <span class="pdesc">— Bullet-screen game with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaFiveormore">AlphaFiveormore</a> <span class="pdesc">&ldquo;Five or More&rdquo; game with AI</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Alpha24">Alpha24</a> <span class="pdesc">— 24 Game with AI</span></li>
+      </ul>
+    </div>
+    <div class="card proj-group">
+      <h3>Systems, Languages &amp; Tools</h3>
+      <ul>
+        <li><a class="pname" href="https://github.com/longyangking/Loong">Loong</a> <span class="pdesc">— Home-made set of computer infrastructures</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/AlphaCompiler">AlphaCompiler</a> <span class="pdesc">— A compiler tools kit (C)</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/LoveBird">LoveBird</a> <span class="pdesc">— Home-made Python interpreter (Java)</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/arlkit-learn">arlkit-learn</a> <span class="pdesc">— Association rule learning in Python</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/fuzzykit-learn">fuzzykit-learn</a> <span class="pdesc">— Fuzzy logic learning in Python</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Strategier">Strategier</a> <span class="pdesc">— Strategy analyser and maker</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/Modelcraft">Modelcraft</a> <span class="pdesc">— 3D model builder based on matrices</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/ShibaInu">ShibaInu</a> <span class="pdesc">— Blockchain database</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/CheatEngine">CheatEngine</a> <span class="pdesc">— Game memory scanner (C#)</span></li>
+      </ul>
+    </div>
+    <div class="card proj-group">
+      <h3>Just for Fun</h3>
+      <ul>
+        <li><a class="pname" href="https://github.com/longyangking/Gomoku">Gomoku</a> <span class="pdesc">— Gomoku game (Java)</span></li>
+        <li><a class="pname" href="https://github.com/longyangking/FlyGame">FlyGame</a> <span class="pdesc">— Fly game (Java)</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>&copy; Yang Long · School of Physics Science and Engineering, Tongji University</p>
+  <p><a href="mailto:longyangphysics@tongji.edu.cn">E-mail</a> · <a href="https://github.com/longyangking" target="_blank">GitHub</a> · <a href="thoughts.html">Blog</a> · <a href="#top">Back to Top</a></p>
+</footer>
+
+<script src="package/three.min.js"></script>
+<script>
+/* Chiral-phonon honeycomb lattice: atoms orbit in circularly polarized motion,
+   phase-delayed along x, like a chiral phonon travelling through graphene. */
+(function(){
+  var canvas = document.getElementById('lattice-canvas');
+  if (!canvas || !window.THREE) return;
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var renderer;
+  try {
+    renderer = new THREE.WebGLRenderer({canvas: canvas, alpha: true, antialias: true});
+  } catch (e) { canvas.style.display = 'none'; return; }
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+
+  var scene = new THREE.Scene();
+  var camera = new THREE.PerspectiveCamera(40, 2, 0.1, 300);
+  camera.position.set(0, -12, 17.5);
+  camera.lookAt(0, 0, -0.5);
+
+  scene.add(new THREE.AmbientLight(0xffffff, 1.0));
+  var key = new THREE.DirectionalLight(0xffffff, 0.4); key.position.set(5, 8, 14); scene.add(key);
+  var fill = new THREE.DirectionalLight(0xcdeee4, 0.35); fill.position.set(-8, -6, 5); scene.add(fill);
+
+  // ---- honeycomb lattice (graphene) ----
+  var D = 1.35, R = 16;
+  var d1 = [0, D], d2 = [Math.sqrt(3)/2*D, -D/2], d3 = [-Math.sqrt(3)/2*D, -D/2];
+  var u = [d2[0]-d1[0], d2[1]-d1[1]], v = [d3[0]-d1[0], d3[1]-d1[1]];
+  var cells = [], cellMap = {}, N = 10;
+  for (var i = -N; i <= N; i++) for (var j = -N; j <= N; j++) {
+    var ax = i*u[0] + j*v[0], ay = i*u[1] + j*v[1];
+    if (Math.hypot(ax, ay) < R) {
+      cellMap[i + ',' + j] = cells.length;
+      cells.push([ax, ay, ax + d1[0], ay + d1[1]]);
+    }
+  }
+  var natoms = cells.length * 2;
+  var baseX = new Float32Array(natoms), baseY = new Float32Array(natoms);
+  for (var c = 0; c < cells.length; c++) {
+    baseX[2*c] = cells[c][0]; baseY[2*c] = cells[c][1];
+    baseX[2*c+1] = cells[c][2]; baseY[2*c+1] = cells[c][3];
+  }
+  var bonds = [];
+  for (var c2 = 0; c2 < cells.length; c2++) {
+    var det = u[0]*v[1] - u[1]*v[0];
+    var ii = Math.round((cells[c2][0]*v[1] - cells[c2][1]*v[0]) / det);
+    var jj = Math.round((u[0]*cells[c2][1] - u[1]*cells[c2][0]) / det);
+    if (cellMap[ii + ',' + jj] !== undefined)     bonds.push([2*c2, 2*cellMap[ii + ',' + jj] + 1]);
+    if (cellMap[(ii+1) + ',' + jj] !== undefined) bonds.push([2*c2, 2*cellMap[(ii+1) + ',' + jj] + 1]);
+    if (cellMap[ii + ',' + (jj+1)] !== undefined) bonds.push([2*c2, 2*cellMap[ii + ',' + (jj+1)] + 1]);
+  }
+
+  // ---- atoms ----
+  var group = new THREE.Group();
+  group.position.set(0, -3.6, 0);
+  scene.add(group);
+
+  var geo = new THREE.SphereGeometry(0.3, 18, 14);
+  var mat = new THREE.MeshLambertMaterial({color: 0xffffff});
+  var mesh = new THREE.InstancedMesh(geo, mat, natoms);
+  var colA = new THREE.Color(0x35c0ae), colB = new THREE.Color(0x5da7e8);
+  var colBg = new THREE.Color(0xf0f6f4), tmpC = new THREE.Color();
+  for (var a = 0; a < natoms; a++) {
+    var f = Math.min(Math.hypot(baseX[a], baseY[a]) / R, 1);
+    tmpC.copy(a % 2 ? colB : colA).lerp(colBg, Math.pow(f, 1.6) * 0.85);
+    mesh.setColorAt(a, tmpC);
+  }
+  if (mesh.instanceColor) mesh.instanceColor.needsUpdate = true;
+  group.add(mesh);
+
+  // ---- bonds ----
+  var bpos = new Float32Array(bonds.length * 6);
+  var bgeo = new THREE.BufferGeometry();
+  bgeo.setAttribute('position', new THREE.BufferAttribute(bpos, 3));
+  var bmat = new THREE.LineBasicMaterial({color: 0x8fb6c2, transparent: true, opacity: 0.65});
+  group.add(new THREE.LineSegments(bgeo, bmat));
+
+  // ---- chiral phonon dynamics ----
+  var AMP = 0.5, ZAMP = 0.22, K = 2*Math.PI / (11*D), OMEGA = 1.6;
+  var cur = new Float32Array(natoms * 3);
+  var m4 = new THREE.Matrix4();
+  var t = 0, last = performance.now();
+
+  function step() {
+    for (var a2 = 0; a2 < natoms; a2++) {
+      var th = OMEGA * t - K * baseX[a2];
+      var x = baseX[a2] + AMP * Math.cos(th);
+      var y = baseY[a2] + AMP * Math.sin(th);
+      var z = ZAMP * Math.sin(th);
+      cur[3*a2] = x; cur[3*a2+1] = y; cur[3*a2+2] = z;
+      m4.makeTranslation(x, y, z);
+      mesh.setMatrixAt(a2, m4);
+    }
+    mesh.instanceMatrix.needsUpdate = true;
+    for (var b = 0; b < bonds.length; b++) {
+      var p = bonds[b];
+      bpos[6*b]   = cur[3*p[0]];   bpos[6*b+1] = cur[3*p[0]+1]; bpos[6*b+2] = cur[3*p[0]+2];
+      bpos[6*b+3] = cur[3*p[1]];   bpos[6*b+4] = cur[3*p[1]+1]; bpos[6*b+5] = cur[3*p[1]+2];
+    }
+    bgeo.attributes.position.needsUpdate = true;
+  }
+
+  var mx = 0, my = 0;
+  window.addEventListener('pointermove', function(e) {
+    mx = (e.clientX / window.innerWidth - 0.5) * 2;
+    my = (e.clientY / window.innerHeight - 0.5) * 2;
+  }, {passive: true});
+
+  function resize() {
+    var w = canvas.clientWidth, h = canvas.clientHeight;
+    if (!w || !h) return;
+    renderer.setSize(w, h, false);
+    camera.aspect = w / h;
+    camera.updateProjectionMatrix();
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  function frame(now) {
+    var dt = Math.min((now - last) / 1000, 0.05);
+    last = now;
+    t += dt;
+    group.rotation.z += 0.045 * dt;
+    group.rotation.x += (my * 0.09 - group.rotation.x) * 0.05;
+    group.rotation.y += (mx * 0.12 - group.rotation.y) * 0.05;
+    step();
+    renderer.render(scene, camera);
+    if (!reduce) requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+})();
+</script>
+
 </body>
 </html>
